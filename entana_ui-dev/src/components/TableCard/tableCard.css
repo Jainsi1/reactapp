@@ -1,0 +1,27 @@
+.tableHeaderTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #252525;
+}
+
+.expanded-table-div {
+  width: 98%;
+  margin: auto;
+}
+
+.expanded-table {
+  margin: auto;
+}
+
+.table-title {
+  float: left;
+  width: 80%;
+}
+
+.add-row-button {
+  float: right;
+  text-align: right;
+  width: 20%;
+}

@@ -1,0 +1,41 @@
+.card-header-text {
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 35px;
+    color: #252525;
+}
+
+.space {
+    height: 70px;
+}
+
+.para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    text-align: start;
+    padding: 12px;
+}
+
+.para-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    color: #252525;
+}
+
+.verify-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 46px;
+}

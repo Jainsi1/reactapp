@@ -1,0 +1,26 @@
+.qbr-steps-content {
+    margin-top: 3rem;
+}
+
+.action-arrow {
+    font-size: 30px;
+    color: #1890ff;
+    cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1rem;
+    margin-top: 54px;
+}
+
+.qbr-score-card-widget {
+    padding: 2rem;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0 5px 16px rgb(8 15 52 / 6%);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.qbr-score-details {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}

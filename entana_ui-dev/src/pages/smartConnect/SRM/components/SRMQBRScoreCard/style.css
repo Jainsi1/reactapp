@@ -1,0 +1,123 @@
+
+.textarea-icon {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 45px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    background: #3286FF;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+.mt-1rem {
+    margin-top: 1rem;
+}
+
+.widget-link {
+    padding: 0 4px;
+    text-decoration: underline;
+}
+
+.widget-link-edit {
+    color: #A0A3B1;
+}
+
+.widget-link-edit:hover {
+    color: #A0A3B1;
+}
+
+.qbr-card-widget {
+    padding: 4rem;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 34px;
+}
+
+.qbr-summary {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.qbr-textarea-container {
+    display: flex;
+}
+
+.qbr-score-card-actions {
+    background: white;
+    padding: 4px 8px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 30px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.qbr-score-card-actions img {
+    cursor: pointer;
+}
+
+.dashboard-card-min-h {
+    min-height: 498px !important;
+}
+
+.header-org-name {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.header-supplier-performance {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.header-date {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: rgba(0, 0, 0, 0.7);
+    padding-right: .3rem;
+}
+
+.summary-heading {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: rgba(0, 0, 0, 0.7);
+    word-break: break-all;
+}
+
+.summary-paragraph {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: rgba(0, 0, 0, 0.7);
+}

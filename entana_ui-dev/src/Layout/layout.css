@@ -1,0 +1,131 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.ant-card-body {
+  padding: 18px;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+}
+
+.ant-layout-sider {
+  background: #3286ff;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background: #3286ff;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: #1675ff;
+}
+.antd-layout {
+  min-height: 100vh;
+}
+.header-layout {
+  padding: 0;
+  background: #fff;
+}
+.content-layout {
+  padding: 24px;
+  min-height: 280px;
+  background: #f4f4f6;
+}
+.ant-input-sm {
+  margin-left: 5px;
+  width: 220px;
+  height: 40px;
+  background: #f4f4f6;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .ant-input-sm {
+    display: none;
+  }
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.badge-icon sup {
+  cursor: pointer;
+  background: #252525;
+}
+.bell-icon {
+  font-size: 16px;
+  cursor: pointer;
+  color: #3286ff;
+  vertical-align: middle;
+}
+
+.avatar-icon {
+  cursor: pointer;
+  margin: 0 1.5rem;
+}
+
+.notification-popover.ant-popover-placement-bottomRight .ant-popover-arrow {
+  right: 0;
+}
+
+.notification-popup.ant-popover-inner {
+  border-radius: 8px;
+}
+
+.notification-popup.ant-popover-placement-bottomRight {
+  padding-top: 6px;
+}
+.notification-popup.ant-popover-placement-bottomRight .ant-popover-arrow {
+  right: 0;
+}
+
+.notification-layout.ant-popover-placement-bottomRight {
+  padding-top: 6px;
+}
+
+.ant-popover-inner-content ol,
+ul,
+dl,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.sidebar-tag {
+  display: flex;
+  justify-content: center;
+  height: 130px;
+  align-items: end;
+}
+
+.kanban-icon {
+
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #3286FF;
+  vertical-align: middle;
+  
+}

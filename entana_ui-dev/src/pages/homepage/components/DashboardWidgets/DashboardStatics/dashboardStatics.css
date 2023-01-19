@@ -1,0 +1,74 @@
+.statics-card {
+  min-height: 145px;
+}
+
+.info-circle {
+  display: inline-block;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 15px;
+  color: #dddddd;
+  cursor: pointer;
+}
+
+.info-circle-large {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 18px;
+  color: #dddddd;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-transform: none;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+  text-transform: none;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.iconing {
+  display: inline-block;
+  vertical-align: middle;
+}

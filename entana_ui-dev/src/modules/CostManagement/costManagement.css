@@ -1,0 +1,32 @@
+.cost-management-bottom-card {
+  margin-top: 20px;
+}
+
+.check-icon {
+  color: "#000";
+}
+
+.engine-insights-card {
+  padding-top: 15px;
+}
+
+.engine-card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #757575;
+}
+
+.expand-alt {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  content: "\f424";
+  color: #3286ff;
+  cursor: pointer;
+}

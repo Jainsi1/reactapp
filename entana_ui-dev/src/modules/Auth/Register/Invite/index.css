@@ -1,0 +1,83 @@
+.card-header-text {
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 35px;
+    text-align: start;
+    color: #252525;
+}
+
+.space {
+    height: 70px;
+}
+
+.para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    text-align: start;
+    padding: 12px;
+}
+
+.child {
+    text-align: initial;
+    padding: 0px 20px;
+}
+
+.button-light {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #EDE0E0;
+}
+
+.small-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: start;
+    color: #252525;
+}
+
+.radio-title {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #252525;
+}
+
+.invite-radio-box {
+    text-align: start;
+}
+
+.child-box {
+    text-align: start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #252525;
+    padding-top: 15px;
+    width: 80%;
+}
+
+.add-more {
+    text-align: left !important;
+    cursor: pointer;
+    color: #3286FF;
+}

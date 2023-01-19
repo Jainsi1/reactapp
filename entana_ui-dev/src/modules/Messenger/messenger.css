@@ -1,0 +1,390 @@
+/* ChatBox */
+.mainChatBox {
+    padding: 20px 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px 2px rgb(226 226 226 / 38%);
+    border-radius: 8px;
+}
+
+.searchBox {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px 2px rgb(226 226 226 / 38%);
+    border-radius: 25px;
+    border: none;
+}
+
+.title {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    /* identical to box height */
+    letter-spacing: 0.05em !important;
+    color: #303030 !important;
+    padding-top: 16px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.avatar_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.messageTitle {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.04em !important;
+    color: #303030 !important;
+}
+
+.messageUpper {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #303030;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.messageTitleBox,
+.messageDateBox {
+    line-height: 1 !important;
+}
+
+.messageDateTitle {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+    letter-spacing: 0.01em !important;
+    color: #7C7C7C !important;
+}
+
+.roomBox {
+    border-bottom: 1px solid rgba(180, 171, 171, 0.66);
+    padding: 10px 10px;
+}
+
+
+.roomBox:hover {
+    background: #d4eafd;
+    cursor: pointer;
+}
+
+.messageBox {
+    border-bottom: 0.5px solid rgba(180, 171, 171, 0.66);
+    padding: 10px 0px;
+}
+
+.messageTickCircle {
+    background: #3286FF;
+    color: white;
+    font-size: 10px;
+    padding: 6px;
+    border-radius: 30px;
+    height: 20px !important;
+    width: 20px;
+    margin-right: 0;
+}
+
+.messageDateBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.moreIcon {
+    color: #3286FF;
+}
+
+.chatBox {
+    border-bottom: 0.5px solid rgba(180, 171, 171, 0.66);
+    padding-bottom: 8px;
+}
+
+.chatInnerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 378px;
+}
+
+.chatBoxSidebar {
+    max-height: 360px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.chatBoxMessages {
+    height: 330px;
+    overflow-y: auto;
+    padding: 15px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sender {
+    position: relative;
+}
+
+.senderDot {
+    position: absolute;
+    width: 12.72px;
+    height: 11.37px;
+    top: 25px;
+    background: #E7E7E7;
+    border-radius: 8px;
+}
+
+.senderMessage {
+    position: inherit;
+    left: 15px;
+    padding: 7px 12px;
+    max-width: 45%;
+    width: fit-content;
+    background: #E7E7E7;
+    border-radius: 8px;
+    margin: 20px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    word-break: break-all;
+    color: #303030;
+}
+
+.receiver {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    position: relative;
+}
+
+.receiverDot {
+    position: absolute;
+    width: 12.72px;
+    height: 11.37px;
+    right: 15px;
+    top: 40px;
+    background: #3286FF;
+    border-radius: 8px;
+}
+
+.receiverMessage {
+    position: inherit;
+    right: 30px;
+    padding: 7px 12px;
+    background: #3286FF;
+    color: white;
+    border-radius: 8px;
+    max-width: 45%;
+    width: fit-content;
+    margin: 20px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    word-break: break-all;
+    color: #FFFFFF;
+}
+
+.senderDate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #707070;
+    margin-left: 18px;
+    position: absolute;
+    bottom: 2px;
+}
+
+.receiverDate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #707070;
+    margin-left: -9px;
+    position: absolute;
+    bottom: 0px;
+    right: 32px;
+    /*width: 95px;*/
+}
+
+.messageType {
+    background: rgba(239, 246, 252, 0.87);
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.emoji {
+    color: #757575;
+}
+
+.send {
+    color: #8BABD8;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.personalNoteHeading {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    letter-spacing: 0.05em !important;
+    margin-top: 12px;
+    color: #303030;
+}
+
+.personalNotePara {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #757575;
+    margin: 24px 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #ccc;
+    }
+
+    .avatar_img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    .messageTitle {
+        font-family: 'Roboto' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        line-height: 18px !important;
+        letter-spacing: 0.04em !important;
+        color: #303030 !important;
+    }
+
+    .messageUpper {
+        font-family: Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        color: #303030;
+    }
+
+    .messageDateTitle {
+        font-family: 'Roboto' !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 10px !important;
+        line-height: 12px !important;
+        letter-spacing: 0.01em !important;
+        color: #7C7C7C !important;
+    }
+
+    .messageTickCircle {
+        background: #3286FF;
+        color: white;
+        font-size: 10px;
+        padding: 6px;
+        border-radius: 30px;
+        height: 20px !important;
+        width: 20px;
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+.chatBoxMessages::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chatBoxMessages::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(180, 171, 171, 0.66);
+    border-radius: 4px;
+}
+
+.chatBoxMessages::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px rgba(180, 171, 171, 0.66);
+}
+
+.inputFocus:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.indicator.online {
+    position: absolute;
+    bottom: 0;
+    right: 13px;
+    background: #0fcc45;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    -webkit-animation: pulse-animation 2s infinite linear;
+}
+
+@-webkit-keyframes pulse-animation {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    25% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2)
+    }
+    75% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}

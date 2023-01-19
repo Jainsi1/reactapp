@@ -1,0 +1,12 @@
+.product-list {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.product-list-item {
+  display: block;
+}
+
+.product-name {
+  margin-right: 5px;
+}

@@ -1,0 +1,344 @@
+.dashboard-main-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-dropdown {
+  display: flex;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .card-dropdown {
+    display: block;
+  }
+}
+
+.card-dropdown .ant-select-selector {
+  border-radius: 4px;
+}
+
+.dashboard-dropdown {
+  margin-right: 10px;
+}
+
+.dashboard-card-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #252525;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.dashboard-card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.dashboard-card-number-col {
+  padding: 0 10px 0 5px;
+  color: #87cf6e;
+}
+
+.dashboard-header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: #87cf6e;
+}
+.dashboard-header-text.text-red {
+  color: #ff5a5a;
+}
+
+.dashboard-header-text-second {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  color: #757575;
+}
+
+/* .riscometer-heading-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #252525;
+} */
+
+.riscometer-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #3286ff;
+}
+
+.riscometer-piggybank-row {
+  padding-bottom: 15px;
+}
+
+.riscometer-paragraph-text {
+  padding: 10px 0;
+}
+
+/* .piggy-image {
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  background: #87cf6e;
+  padding: 10px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+} */
+
+.piggy-bank-text {
+  align-self: center;
+  padding: 0 0 0 20px;
+}
+
+.piggy-text-half {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #87cf6e;
+}
+
+/* .dollar-image {
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  background: #ff5a5a;
+  padding: 10px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+} */
+
+.dollar-text {
+  align-self: center;
+  padding: 0 0 0 20px;
+}
+
+.dollar-text-half {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ff5a5a;
+}
+
+.spend-map-header-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #252525;
+}
+
+.map-header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: #87cf6e;
+}
+
+.map-header-text-second {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  color: #757575;
+}
+
+.inventory-header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: #ff5a5a;
+}
+
+.inventory-header-text-second {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  color: #757575;
+}
+
+.card-map {
+  width: 100%;
+  height: 180px;
+  border: none;
+  border-radius: 8px;
+}
+
+.calender-image {
+  background: #3286ff;
+  padding: 8px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.Time-image {
+  background: #57e1ff;
+  padding: 8px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.Warning-image {
+  background: #fdbc3f;
+  padding: 8px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.Task-image {
+  background: #fd833f;
+  padding: 8px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.last-card-header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.last-card-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.last-card-text-col {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  align-self: center;
+}
+
+.last-card-paragraph-highlight {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3286ff;
+}
+
+.last-card-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #757575;
+}
+
+.center-card-row {
+  padding: 15px 0;
+}
+
+.info-circle {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 15px;
+  color: #dddddd;
+  cursor: pointer;
+}
+
+.info-circle-large {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  color: #dddddd;
+  vertical-align: middle;
+
+}
+
+.tooltip {  
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #000000;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 0px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  position: absolute;
+  border-width: 5px;
+  margin-left: -5px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+  top: 100%;
+  left: 50%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+
+.tooltip .left {
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+}
+
+.tooltip .right {
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+}

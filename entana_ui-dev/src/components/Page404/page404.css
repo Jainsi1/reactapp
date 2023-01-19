@@ -1,0 +1,22 @@
+/* 404 */
+.wrapper-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.wrapper-404 .title-404 {
+  font-size: 10rem;
+  font-weight: 700;
+}
+.wrapper-404 .subtitle-404 {
+  font-weight: 700;
+  font-size: 200%;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+.wrapper-404 .description-404 {
+  margin-bottom: 10rem;
+}
+/* END - 404 */

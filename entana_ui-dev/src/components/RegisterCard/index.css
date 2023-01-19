@@ -1,0 +1,69 @@
+
+.register-card-box {
+    text-align: start;
+    width: 100%;
+    height: 100%;
+    background: #3286FF;
+    border-radius: 8px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 33px 20px;
+    min-height: 457px;
+}
+
+.register-card-inside {
+    width: 100%;
+}
+
+.register-card-box > .logo {
+    width: 206px;
+    height: 53px;
+}
+
+.register-card-box > .heading {
+    text-align: start;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding: 12px 0px 17px 10px
+}
+
+@media screen and (max-width: 770px) {
+    .register-card-box {
+        text-align: start;
+        width: 100%;
+        height: 100%;
+        background: #3286FF;
+        border-radius: 8px;
+        font-family: 'Roboto', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 33px;
+        color: #FFFFFF;
+        padding: 10px !important;
+        min-height: auto;
+    }
+
+    .register-card-box .heading {
+        text-align: start;
+        font-family: 'Roboto', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 33px;
+        color: #FFFFFF;
+        padding: 12px 0px 17px 10px;
+        display: none;
+    }
+}

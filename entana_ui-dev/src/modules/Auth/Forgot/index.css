@@ -1,0 +1,42 @@
+.card-header-text {
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 35px;
+    text-align: center;
+    color: #252525;
+}
+
+.registor-box {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+}
+
+.Box-Logo {
+    width: 205.65px;
+    height: 53px;
+}
+
+.space {
+    height: 45px;
+}
+
+.para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    text-align: start;
+    padding: 12px 0;
+}
+
+.ant-form-item-explain-error {
+    font-size: 12px;
+    font-weight: 500;
+}

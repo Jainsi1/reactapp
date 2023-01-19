@@ -1,0 +1,72 @@
+.crud-icons {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .ant-modal-footer {
+  display: none;
+} */
+
+.edit-icon-color {
+  color: #3286ff;
+  cursor: pointer;
+}
+.delete-icon-color {
+  color: #fd3f3f;
+  cursor: pointer;
+}
+.copy-icon-color {
+  color: #cc3ffd;
+  cursor: pointer;
+}
+.add-icon-color {
+  color: #87cf6e;
+  cursor: pointer;
+}
+.info-icon-color {
+  color: #fdbc3f;
+  cursor: pointer;
+}
+
+.CheckCircle-icon-color {
+  color: #57e1ff;
+  cursor: pointer;
+}
+
+.action-popover-button {
+  cursor: pointer;
+}
+
+.actions .ant-popover-inner {
+  border-radius: 20px;
+}
+
+.actions .ant-popover-inner-content {
+  border-radius: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+}
+
+.actions.ant-popover-placement-bottom .ant-popover-arrow,
+.ant-popover-placement-bottomLeft .ant-popover-arrow,
+.ant-popover-placement-bottomRight .ant-popover-arrow {
+  top: -10.5px;
+}
+
+.ant-popover-placement-bottom,
+.ant-popover-placement-bottomLeft,
+.ant-popover-placement-bottomRight {
+  padding-top: 6px;
+}
+
+.actions.ant-popover-placement-bottom {
+  padding-top: 5px;
+}
+
+.ant-modal-content {
+  border-radius: 8px;
+}

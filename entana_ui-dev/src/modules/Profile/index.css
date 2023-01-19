@@ -1,0 +1,305 @@
+.Profile-banner {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+}
+
+.Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: baseline;
+
+    color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+.Text span {
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+.Profile-wrapper > .ant-tabs-tab {
+    width: 100%;
+    /* height: 48px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(117, 117, 117, 0.49);
+}
+
+.Profile-wrapper > .ant-tabs, .ant-row, .ant-tabs-nav-list {
+    width: 100% !important;
+}
+
+.card-box {
+    background: #FFFFFF;
+    border: 1px solid #E0DFDC;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.card-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 143% */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    line-height: 2;
+}
+
+.border-line {
+    border: 1px solid #E0DFDC;
+    width: 100%;
+}
+
+.card-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.card-inside {
+    padding: 20px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 6px 10px 25px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-heading {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.Profile-wrapper >
+.ant-card-body {
+    padding: 12px 0px;
+}
+
+.Profile-wrapper >
+.ant-card-cover {
+    padding-top: 24px;
+}
+
+.card-img {
+    height: 117px;
+    width: 240px;
+    object-fit: cover;
+}
+
+.card-para-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10%;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.bottombtn {
+    width: 100%;
+    text-align: start;
+}
+
+.input-rounded {
+    background: #F4F4F6;
+    border-radius: 20px;
+    padding: 7px 10px;
+}
+
+.input-rounded:hover {
+    background-color: #F4F4F6;
+}
+
+.input-rounded:focus {
+    background-color: #F4F4F6;
+}
+
+.card-header {
+    margin-bottom: 30px;
+}
+
+.head-img {
+    width: 100%;
+    text-align: center;
+}
+
+
+.User-Profile-Banner {
+    display: flex;
+    align-items: baseline;
+}
+
+.icon {
+    margin: 0px 6px;
+}
+
+.user-img {
+    width: 165px;
+    object-fit: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.editIcon {
+    position: absolute;
+    right: -21px;
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.rounded-box-dark {
+    width: 167px;
+    height: 46px;
+
+    background: #3286FF;
+    border-radius: 12px;
+}
+
+.rounded-box-light {
+    width: 167px;
+    height: 46px;
+    background: rgba(22, 117, 255, 0.4);
+    border-radius: 12px;
+}
+
+.box-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    color: #FFFFFF;
+}
+
+.box-title-light {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.box-border {
+    width: 92px;
+    height: 0px;
+    border: 1px solid #3286FF;
+}
+
+
+@media screen and (max-width: 750px) {
+    .Profile-banner-heading {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px 0px;
+    }
+
+    .Profile-wrapper >
+    .ant-typography {
+        font-size: 15px !important;
+    }
+
+    .tick {
+        width: 25px;
+    }
+
+    .btnText {
+        font-size: 12px;
+    }
+
+    .Profile-wrapper >
+    .ant-card {
+        width: 100% !important;
+    }
+
+    .card-img {
+        height: 117px;
+        width: 95%;
+        object-fit: cover;
+    }
+
+    .rounded-box-dark, .rounded-box-light, .box-border {
+        margin-bottom: 10px !important;
+        margin: 0 auto;
+
+    }
+
+    .box-border {
+        display: none;
+    }
+}
+
+.avatar-uploader {
+    text-align: center;
+}
+
+.avatar-uploader > .ant-upload-select-picture-card {
+    width: 146px;
+    height: 133px;
+}
+
+.no-image{
+    height: 78px;
+    border-radius: 0;
+    width: 140px;
+}

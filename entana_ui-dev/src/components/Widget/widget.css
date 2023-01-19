@@ -1,0 +1,15 @@
+.dashboard-card-widget.widget-card {
+  min-height: 271px;
+}
+
+.srm-notification-card.widget-card {
+  min-height: 540px;
+}
+
+.widget-card {
+  border-radius: 8px;
+}
+
+.cost-management-card.widget-card {
+  min-height: 350px;
+}

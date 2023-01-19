@@ -1,0 +1,24 @@
+.notification_board {
+    font-size: 14px;
+    background-color: white;
+    padding: 2em;
+    margin:1em;
+
+    border-radius: 0.5em;
+}
+
+.notification_item {
+    font-size: 14px;
+    color: black !important;
+    padding: 0.8em;
+    border-bottom: solid 2px rgba(49, 49, 49, 0.116);
+    word-wrap: break-word;
+}
+
+.notification_item a{
+    color: inherit;
+}
+
+.notification_item:hover a {
+    color : #3286ff;
+}

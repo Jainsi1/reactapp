@@ -1,0 +1,19 @@
+.dashboard-main-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-dropdown {
+  /* margin-right: 10px; */
+  width: auto;
+}
+
+.dashboard-dropdown-smartconnect {
+  /* margin-right: 10px; */
+  width: auto;
+  min-width: 160px;
+}
+
+.commodity-selector .ant-select-selection-overflow{
+  flex-wrap:nowrap
+}
