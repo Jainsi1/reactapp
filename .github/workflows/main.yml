@@ -25,8 +25,9 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - name: Move to main directory
+        run:  cd entana_ui-dev
       - name: Build React App
-        run: cd entana_ui-dev
         run: npm install && npm run build
       - name: Deploy app build to S3 bucket
         run: aws s3 sync ./build/ s3://ena-react-app --delete
