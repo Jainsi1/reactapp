@@ -27,8 +27,10 @@ jobs:
           aws-region: us-east-1
       - name: pwd
         run:  pwd
+      - name: ls
+        run:  ls
       - name: Move to main directory
-        run:  cd entana_ui-dev
+        run:  cd ./entana_ui-dev
       - name: pwd
         run:  pwd
       - name: node version
