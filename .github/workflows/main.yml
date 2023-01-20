@@ -30,11 +30,9 @@ jobs:
         run: npm install 
         working-directory: ./entana_ui-dev
       - name: Build React App
-        run: npm audit fix --force  && npm audit fix --force
+        run: npm audit fix --force && npm audit fix --force && npm run build
         working-directory: ./entana_ui-dev
-      - name: Build React App
-        run: npm run build 
-        working-directory: ./entana_ui-dev
+     
       - name: Build React App
         run: npm install -g serve
         working-directory: ./entana_ui-dev
