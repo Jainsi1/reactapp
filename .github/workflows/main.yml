@@ -35,8 +35,7 @@ jobs:
              serve -s build
         working-directory: ./entana_ui-dev
       - name: ls
-        run : ls
-              ls entana_ui-dev
+        run : ls entana_ui-dev
       - name: Deploy app build to S3 bucket
         run: aws s3 sync entana_ui-dev/build/ s3://entana-react-app --delete
         
