@@ -30,7 +30,7 @@ jobs:
       - name: ls
         run:  ls
       - name: Move to main directory
-        run:  cd ./entana_ui-dev
+        run:  cd ..
       - name: pwd
         run:  pwd
       - name: node version
