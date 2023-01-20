@@ -35,7 +35,7 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-organizational-chart": "^2.1.1",
     "react-router-dom": "6.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "5.0.1",
     "socket.io-client": "^4.5.4",
     "swiper": "^8.0.7",
     "use-immer": "^0.8.1",
