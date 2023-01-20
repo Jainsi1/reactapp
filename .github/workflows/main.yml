@@ -27,9 +27,15 @@ jobs:
           aws-region: us-east-1
       - name: Build React App
       - run: npm install 
+      - name: npm command
       - run: npm audit force --fix
+      - name: npm command
+      - run: npm audit force --fix
+      - name: npm command
       - run: npm run build
+      - name: npm command
       - run: npm install -g serve
+      - name: npm command
       - run: serve -s build
       - working-directory: ./entana_ui-dev
       - name: Deploy app build to S3 bucket
