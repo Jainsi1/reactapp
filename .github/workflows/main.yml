@@ -28,7 +28,6 @@ jobs:
       - name: Build React App
         run: npm install 
         run: npm audit force --fix
-        run: npm audit force --fix
         run: npm run build
         run: npm install -g serve
         run: serve -s build
