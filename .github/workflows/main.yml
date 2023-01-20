@@ -36,7 +36,7 @@ jobs:
         working-directory: ./entana_ui-dev
         
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./build/ s3://entana-react-app --delete
+        run: aws s3 sync ./build s3://entana-react-app --delete
         
       - name: Invalidate cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths "/*"
