@@ -29,6 +29,10 @@ jobs:
         run:  pwd
       - name: Move to main directory
         run:  cd entana_ui-dev
+      - name: pwd
+        run:  pwd
+      - name: node version
+        run:  node -v
       - name: Build React App
         run: npm install && npm run build
       - name: Deploy app build to S3 bucket
