@@ -26,7 +26,12 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Build React App
-        run: npm install && npm audit force --fix && npm audit force --fix && npm run build && npm install -g serve && serve -s build
+        run: npm install 
+        run: npm audit force --fix
+        run: npm audit force --fix
+        run: npm run build
+        run: npm install -g serve
+        run: serve -s build
         working-directory: ./entana_ui-dev
       - name: Deploy app build to S3 bucket
         run: aws s3 sync ./build/ s3://entana-react-app --delete
